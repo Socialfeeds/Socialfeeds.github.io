@@ -167,7 +167,7 @@ a:hover, a:active {
   width: 100%;
   max-width: 400px;
   padding: 0 10px;
-  overflow: auto;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .menu .form-option {
