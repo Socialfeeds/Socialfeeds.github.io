@@ -2,21 +2,94 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>work</title>
-	
-<style type="text/css">
-body{ 
-background: #00222d;
-overflow: hidden;
+  <title>Hello</title>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+<style>
+html,
+body {
+  top: 100;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #00222d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+h1 {
+  color: #f1c40f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+p {
+  color: #f1c40f;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 2px 0 #3498db inset, 0 0 8px 1px #3498db;
 }
 </style>
-	
-<script id="chatBroEmbedCode">/* Chatbro Widget Embed Code Start */function ChatbroLoader(chats,async){async=!1!==async;var params={embedChatsParameters:chats instanceof Array?chats:[chats],lang:navigator.language||navigator.userLanguage,needLoadCode:'undefined'==typeof Chatbro,embedParamsVersion:localStorage.embedParamsVersion,chatbroScriptVersion:localStorage.chatbroScriptVersion},xhr=new XMLHttpRequest;xhr.withCredentials=!0,xhr.onload=function(){eval(xhr.responseText)},xhr.onerror=function(){console.error('Chatbro loading error')},xhr.open('GET','//www.chatbro.com/embed.js?'+btoa(unescape(encodeURIComponent(JSON.stringify(params)))),async),xhr.send()}/* Chatbro Widget Embed Code End */ChatbroLoader({encodedChatId: '04Zvu'});</script>
-
 </head>
-	
 <body>
-<iframe allowfullscreen id="wallsio-iframe" src="https://walls.io/z5s87?nobackground=1&amp;colorscheme=classic&amp;theme=grid&amp;show_header=1" style="border:0;height:2600px;width:100%" title="Gachalife"></iframe>
+<!-- partial:index.partial.html -->
+<h1>like?</h1>
+<button class="btn third"><a style="color: #D2051E" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Follow</a></button>
+<button class="btn third"><a style="color: #D2051E" href="https://www.google.ru/" class="twitter-follow-button" data-show-count="false" data-size="large">Follow</a></button>
+<button class="btn third"><a style="color: #D2051E" href="#" class="twitter-follow-button" data-show-count="false" data-size="large">Follow</a></button>
+<p>Inspiration for new ways to make interactive!</p>
+<!-- partial -->
+  
 </body>
-	
 </html>
