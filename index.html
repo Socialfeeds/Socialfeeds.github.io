@@ -1,3 +1,4 @@
+
 <!DOCTYPE html> 
 <html lang="en" >
 <head>
@@ -74,18 +75,65 @@ p {
   color: #fff;
   box-shadow: 0 0 2px 0 #3498db inset, 0 0 8px 1px #3498db;
 }
+.sb-img {
+  max-width: 400px;
+  max-height: 400px;
+}
 </style>
 </head>
 <body>
-
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<img src="" class="sb-img js-img" data-hastag="gachalife"/>
 <!-- partial:index.partial.html -->
-<h1>You</h1>
 <button class="btn third"><a style="color: #ffffff" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed</a></button>
 <button class="btn third"><a style="color: #ffffff" href="https://youapp.space/video-chat-app/" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
 <button class="btn third"><a style="color: #3498db" href="/cat" class="twitter-follow-button" data-show-count="false" data-size="large">Game</a></button>
 <p>Inspiration for new ways to make interactive!</p>
 
 <!-- partial -->
+  
+  <script type="text/javascript">
+$(document).ready(function(){
+  var photos,
+      i = 0,
+      id = null,
+      newPhotos;
+  
+  ajaxCall();
+
+  
+  function ajaxCall() {
+    var hastag = $(".js-img").data("hastag")
+    
+    $.ajax({
+      url: "https://www.instagram.com/explore/tags/"+hastag+"/?__a=1",
+      dataType: "json",
+      success: function(data) {
+        photos = data.graphql.hashtag.edge_hashtag_to_media.edges;
+        setTimeout(start, 500);
+      },
+      error: function() {
+        setTimeout(ajaxCall, 60000);
+      }
+    });
+  }
+
+  function start() {
+    i = 0;
+    $(".js-img").attr("src", photos[i].node.display_url);
+    i++;
+    id = setInterval(function(){
+      $(".js-img").attr("src", photos[i].node.display_url);
+      i++;
+      if(i === photos.length) {
+        i = 0;
+        ajaxCall();
+        clearInterval(id);
+      }
+    }, 1000);
+  }
+});
+</script>
   
 </body>
 </html>
