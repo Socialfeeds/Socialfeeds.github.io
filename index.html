@@ -75,14 +75,15 @@ p {
   box-shadow: 0 0 2px 0 #3498db inset, 0 0 8px 1px #3498db;
 }
 .sb-img {
-  max-width: 400px;
-  height: 400px;
+  max-width: 200px;
+  height: 200px;
 }
 </style>
 </head>
 <body>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <img src="" class="sb-img js-img" data-hastag="gachalife"/>
+<p>YOU</p>
 <!-- partial:index.partial.html -->
 <button class="btn third"><a style="color: #ffffff" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed</a></button>
 <button class="btn third"><a style="color: #ffffff" href="https://youapp.space/video-chat-app/" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
@@ -99,7 +100,6 @@ $(document).ready(function(){
       newPhotos;
   
   ajaxCall();
-
   
   function ajaxCall() {
     var hastag = $(".js-img").data("hastag")
@@ -116,7 +116,6 @@ $(document).ready(function(){
       }
     });
   }
-
   function start() {
     i = 0;
     $(".js-img").attr("src", photos[i].node.display_url);
