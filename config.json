@@ -1,16 +1,15 @@
 [
   {
-    "title":"WebView",
+    "title":"Wordpress Blogs",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Web",
+        "title":"Recent",
         "provider":"webview",
         "arguments":[
-          "http://www.google.com"
-          "themes"
+          "http://www.go.com"
         ]
       },
       {
@@ -53,7 +52,9 @@
         ]
       }
     ]
-  }
+  },
+
+  {
     "title":"Custom",
     "drawable":"",
     "submenu":"Other",
