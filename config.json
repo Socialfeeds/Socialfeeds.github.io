@@ -7,24 +7,24 @@
     "tabs":[
       {
         "title":"Recent",
-        "provider":"webview",
+        "provider":"woocommerce",
         "arguments":[
           "https://prowebber.ru/uploads/posts/2018-08/thumbs/1535286162_universal.png"
         ]
       },
       {
-        "title":"Themes",
+        "title":"woocommerce",
         "provider":"wordpress",
         "arguments":[
-          "en.blog.wordpress.com",
+          "https://minnit.chat/EN?embed&nickname=",
           "themes"
         ]
       },
       {
         "title":"Security",
-        "provider":"wordpress",
+        "provider":"woocommerce",
         "arguments":[
-          "en.blog.wordpress.com",
+          "https://socialfeeds.github.io/feed",
           "security"
         ]
       },
