@@ -6,8 +6,14 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Recent",
-        "provider":"wordpress",
+        "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
         "arguments":[
           "https://minnit.chat/EN?embed&nickname="
         ]
