@@ -6,62 +6,54 @@
     "iap":false,
     "tabs":[
       {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "https://www.instagram.com/explore/tags/gachalife/"
-        ]
-      }
-    ]
-  },
-
-  {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
         "title":"Web",
         "provider":"webview",
         "arguments":[
-          "https://socialfeeds.github.io/"
+          "http://www.google.com"
+          "themes"
         ]
-      }
-    ]
-  },
-  {
-    "title":"Wordpress Rest",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
+      },
       {
-        "title":"WP Rest",
+        "title":"Themes",
         "provider":"wordpress",
         "arguments":[
-          "https://wordpress.org/news/wp-json/wp/v2/",
-          ""
+          "en.blog.wordpress.com",
+          "themes"
+        ]
+      },
+      {
+        "title":"Security",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com",
+          "security"
+        ]
+      },
+      {
+        "title":"Events",
+        "provider":"wordpress",
+        "arguments":[
+          "en.blog.wordpress.com",
+          "events"
         ]
       }
     ]
   },
   {
-    "title":"Location",
+    "title":"Radio 3FM",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"",
-        "provider":"maps",
+        "title":"Radio 3FM",
+        "provider":"radio",
         "arguments":[
-          "https://www.mapbox.com/help/data/stations.geojson"
+          "http://yp.shoutcast.com/sbin/tunein-station.m3u?id=1627230"
         ]
       }
     ]
-  },
-  {
+  }
     "title":"Custom",
     "drawable":"",
     "submenu":"Other",
