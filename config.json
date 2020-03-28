@@ -9,22 +9,23 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "http://new.gachalife.ru/"
+          "https://socialfeeds.github.io/"
         ]
       }
     ]
   },
+
   {
-    "title":"Categories",
+    "title":"WebView",
     "drawable":"",
     "submenu":"Other",
     "iap":false,
     "tabs":[
       {
-        "title":"Categories",
-        "provider":"overview",
+        "title":"WebView",
+        "provider":"webview",
         "arguments":[
-          "overview.json"
+          "https://play.google.com/store/apps/details?id=online.creators.chat"
         ]
       }
     ]
