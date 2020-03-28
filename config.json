@@ -9,7 +9,7 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "https://socialfeeds.github.io/"
+          "https://www.instagram.com/explore/tags/gachalife/"
         ]
       }
     ]
@@ -22,10 +22,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"WebView",
+        "title":"Web",
         "provider":"webview",
         "arguments":[
-          "https://play.google.com/store/apps/details?id=online.creators.chat"
+          "https://socialfeeds.github.io/"
         ]
       }
     ]
