@@ -7,9 +7,9 @@
     "tabs":[
       {
         "title":"Recent",
-        "provider":"woocommerce",
+        "provider":"wordpress",
         "arguments":[
-          "https://prowebber.ru/uploads/posts/2018-08/thumbs/1535286162_universal.png"
+          "smashballoon.com/instagram-feed/demo/hashtag"
         ]
       },
       {
