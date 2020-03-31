@@ -7,7 +7,7 @@
     "tabs":[
       {
         "title":"Recent",
-        "provider":"webview",
+        "provider":"WebView",
         "arguments":[
           "https://socialfeeds.github.io/"
         ]
