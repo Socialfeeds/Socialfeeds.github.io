@@ -7,9 +7,9 @@
     "tabs":[
       {
         "title":"Recent",
-        "provider":"wordpress",
+        "provider":"webview",
         "arguments":[
-          "smashballoon.com"
+          "https://socialfeeds.github.io/"
         ]
       },
       {
