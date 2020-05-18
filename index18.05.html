@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  align-content: center;
+  align-content: stretch;
 }
 h1 {
   color: #f1c40f;
@@ -43,29 +43,6 @@ p {
   padding: 20px;
   text-align: center;
 }
-.btn {
-  box-sizing: border-box;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-color: transparent;
-  border: 2px solid #e74c3c;
-  border-radius: 0.6em;
-  color: #e74c3c;
-  cursor: pointer;
-  display: flex;
-  align-self: center;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1;
-  margin: 20px;
-  padding: 1.2em 2.8em;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
 .btn:hover, .btn:focus {
   color: #fff;
   outline: 0;
@@ -79,6 +56,20 @@ p {
   max-width: 281px;
   height: 281px;
 }
+.btn {
+  outline:none;
+  margin: 11px;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: transparent;
+  border: 2px solid $green;
+  letter-spacing:1px;
+  text-shadow:0;
+  font:{
+    size:12px;
+  }
 </style>
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -112,11 +103,11 @@ p {
 <img src="" class="sb-img js-img" data-hastag="gachalife"/>
 <p>YOU</p>
 <!-- partial:index.partial.html -->
-<button class="btn third"><a style="color: #ffffff" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed GL</a></button>
-<button class="btn third"><a style="color: #ffffff" href="https://minnit.chat/EN?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat GL</a></button>
-<button class="btn third"><a style="color: #ffffff" href="http://m.vk.com/GachaClub" class="twitter-follow-button" data-show-count="false" data-size="large">Club EN</a></button>
-<button class="btn third"><a style="color: #ffffff" href="http://m.vk.com/gacha_life2" class="twitter-follow-button" data-show-count="false" data-size="large">Club RU</a></button>
-<button class="btn third"><a style="color: #ffffff" href="https://minnit.chat/ChatBTS?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat BTS</a></button>
+<button class="btn third"><a style="color: #ffffff;text-decoration:none" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed GL</a></button>
+<button class="btn third"><a style="color: #ffffff;text-decoration:none" href="https://minnit.chat/EN?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat GL</a></button>
+<button class="btn third"><a style="color: #ffffff;text-decoration:none" href="http://m.vk.com/GachaClub" class="twitter-follow-button" data-show-count="false" data-size="large">Club EN</a></button>
+<button class="btn third"><a style="color: #ffffff;text-decoration:none" href="http://m.vk.com/gacha_life2" class="twitter-follow-button" data-show-count="false" data-size="large">Club RU</a></button>
+<button class="btn third"><a style="color: #ffffff;text-decoration:none" href="https://minnit.chat/ChatBTS?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat BTS</a></button>
 <p>Inspiration for new ways to make interactive!</p>
 
 <!-- partial -->
