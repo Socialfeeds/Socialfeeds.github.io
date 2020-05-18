@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<style>
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #00222d;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+h1 {
+  color: #f1c40f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+p {
+  color: #f1c40f;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+.btn {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 2px 0 #3498db inset, 0 0 8px 1px #3498db;
+}
+.sb-img {
+  max-width: 281px;
+  height: 281px;
+}
+</style>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155072239-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155072239-1');
+</script>
+  
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56864044, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56864044" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+  
+</head>
+<body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<img src="" class="sb-img js-img" data-hastag="gachalife"/>
+<p>YOU</p>
+<!-- partial:index.partial.html -->
+<button class="btn third"><a style="color: #ffffff" href="/feed" class="twitter-follow-button" data-show-count="false" data-size="large">Feed GL</a></button>
+<button class="btn third"><a style="color: #ffffff" href="https://minnit.chat/EN?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat GL</a></button>
+<button class="btn third"><a style="color: #ffffff" href="http://m.vk.com/GachaClub" class="twitter-follow-button" data-show-count="false" data-size="large">Club EN</a></button>
+<button class="btn third"><a style="color: #ffffff" href="http://m.vk.com/gacha_life2" class="twitter-follow-button" data-show-count="false" data-size="large">Club RU</a></button>
+<button class="btn third"><a style="color: #ffffff" href="https://minnit.chat/ChatBTS?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat BTS</a></button>
+<p>Inspiration for new ways to make interactive!</p>
+
+<!-- partial -->
+  
+  <script type="text/javascript">
+$(document).ready(function(){
+  var photos,
+      i = 0,
+      id = null,
+      newPhotos;
+  
+  ajaxCall();
+  
+  function ajaxCall() {
+    var hastag = $(".js-img").data("hastag")
+    
+    $.ajax({
+      url: "https://www.instagram.com/explore/tags/"+hastag+"/?__a=1",
+      dataType: "json",
+      success: function(data) {
+        photos = data.graphql.hashtag.edge_hashtag_to_media.edges;
+        setTimeout(start, 500);
+      },
+      error: function() {
+        setTimeout(ajaxCall, 60000);
+      }
+    });
+  }
+  function start() {
+    i = 0;
+    $(".js-img").attr("src", photos[i].node.display_url);
+    i++;
+    id = setInterval(function(){
+      $(".js-img").attr("src", photos[i].node.display_url);
+      i++;
+      if(i === photos.length) {
+        i = 0;
+        ajaxCall();
+        clearInterval(id);
+      }
+    }, 1000);
+  }
+});
+</script>
+  
+</body>
+</html>
