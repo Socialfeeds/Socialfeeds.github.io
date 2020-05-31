@@ -16,7 +16,7 @@
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://www.artfile.ru/artfile.rss?s=4"
+          "https://Socialfeeds.github.io/feed"
         ]
       },
       {
