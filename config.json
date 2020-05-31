@@ -78,14 +78,14 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://feeds.feedburner.com/AndroidPolice"
+          "https://www.artfile.ru/artfile.rss?s=1"
         ]
       },
       {
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "http://feeds.nature.com/nature/podcast/current"
+          "https://www.artfile.ru/artfile.rss?s=1"
         ]
       }
     ]
