@@ -1,23 +1,22 @@
 [
   {
-    "title":"Wordpress Blogs",
+    "title":"RSS",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Recent",
-        "provider":"wordpress",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "en.blog.wordpress.com"
+          "https://rss.app/feeds/lnYEzgJulhNGZ69M.xml"
         ]
       },
       {
-        "title":"Themes",
-        "provider":"wordpress",
+        "title":"Podcast",
+        "provider":"rss",
         "arguments":[
-          "en.blog.wordpress.com",
-          "themes"
+          "https://www.artfile.ru/artfile.rss?s=4"
         ]
       },
       {
