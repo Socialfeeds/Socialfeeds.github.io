@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://rss.app/feeds/lnYEzgJulhNGZ69M.xml"
+          "https://cdn.pixabay.com/photo/2020/05/25/20/06/storm-5220380_960_720.jpg"
         ]
       },
       {
@@ -301,7 +301,7 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "http://www.google.com"
+          "https://cdn.pixabay.com/photo/2020/05/25/20/06/storm-5220380_960_720.jpg"
         ]
       }
     ]
