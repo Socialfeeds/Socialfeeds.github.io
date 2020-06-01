@@ -9,7 +9,7 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "http:/Hubus.pro/courierim"
+          "https://youapp.space/chat/"
         ]
       }
     ]
