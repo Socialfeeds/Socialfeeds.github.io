@@ -14,9 +14,9 @@
       },
       {
         "title":"Podcast",
-        "provider":"rss",
+        "provider":"webview",
         "arguments":[
-          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Vk&u=gacha_life2&hide_reposts=on&format=Mrss"
+          "https://socialfeeds.github.io/feed"
         ]
       }
     ]
