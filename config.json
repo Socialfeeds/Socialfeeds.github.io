@@ -1,15 +1,22 @@
 [
   {
-    "title":"WebView",
+    "title":"RSS",
     "drawable":"",
-    "submenu":"Other",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"WebView",
-        "provider":"webview",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "http://btsapp.github.io"
+          "https://youapp.space/chat/1.json"
+        ]
+      },
+      {
+        "title":"Podcast",
+        "provider":"rss",
+        "arguments":[
+          "https://rss.app/feeds/lnYEzgJulhNGZ69M.xml"
         ]
       }
     ]
