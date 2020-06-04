@@ -9,7 +9,7 @@
         "title":"WebView",
         "provider":"webview",
         "arguments":[
-          "https://youapp.space/chat/"
+          "http://btsapp.github.io"
         ]
       }
     ]
