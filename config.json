@@ -16,7 +16,7 @@
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://youapp.space/chat/1.json"
+          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Vk&u=gacha_life2&hide_reposts=on&format=Mrss"
         ]
       }
     ]
