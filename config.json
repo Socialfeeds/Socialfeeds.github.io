@@ -16,7 +16,7 @@
         "title":"Feed",
         "provider":"webview",
         "arguments":[
-          "https://yandex.ru/images/search?text=картинки&stype=image&lr=50&source=wiz"
+          "https://imgpng.ru/"
         ]
       },
       {
