@@ -9,14 +9,14 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://youapp.space/chat/1.json"
+          "https://rss.app/feeds/lnYEzgJulhNGZ69M.xml"
         ]
       },
       {
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://rss.app/feeds/lnYEzgJulhNGZ69M.xml"
+          "https://youapp.space/chat/1.json"
         ]
       }
     ]
