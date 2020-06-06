@@ -1,15 +1,22 @@
 [
   {
-    "title":"Instagram",
+    "title":"RSS",
     "drawable":"",
-    "submenu":"Social Media",
+    "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Instagram",
-        "provider":"instagram",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "17841402834084629"
+          "http://feeds.feedburner.com/AndroidPolice"
+        ]
+      },
+      {
+        "title":"Podcast",
+        "provider":"rss",
+        "arguments":[
+          "https://www.pinterest.ru/gachalife/feed.rss"
         ]
       }
     ]
