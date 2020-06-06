@@ -16,7 +16,7 @@
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://www.pinterest.ru/gachalife/feed.rss"
+          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Instagram&context=Hashtag&h=gachalife&media_type=picture&format=Mrss"
         ]
       }
     ]
