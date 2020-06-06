@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Instagram&context=Hashtag&h=gachalife&media_type=all&direct_links=on&format=Atom"
+          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Facebook&context=Group&g=https%3A%2F%2Fwww.facebook.com%2Fgroups%2FGachaLife%2F&limit=-1&format=Html"
         ]
       },
       {
