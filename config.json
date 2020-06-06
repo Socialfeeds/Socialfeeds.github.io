@@ -13,10 +13,16 @@
         ]
       },
       {
-        "title":"Feed",
-        "provider":"webview",
+        "title":"Instagram",
+    "drawable":"",
+    "submenu":"Social Media",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Instagram",
+        "provider":"instagram",
         "arguments":[
-          "https://imgpng.ru/"
+          "17841402834084629"
         ]
       },
       {
