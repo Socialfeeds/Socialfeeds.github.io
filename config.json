@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://fototema.ru/category/fotovistavki/rss.xml"
+          "http://feeds.feedburner.com/blogspot/YZOzV"
         ]
       },
       {
