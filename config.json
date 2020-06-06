@@ -11,13 +11,6 @@
         "arguments":[
           "17841402834084629"
         ]
-      },
-      {
-        "title":"Podcast",
-        "provider":"webview",
-        "arguments":[
-          "https://socialfeeds.github.io/feed"
-        ]
       }
     ]
   }
