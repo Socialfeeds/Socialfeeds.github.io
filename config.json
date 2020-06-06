@@ -1,19 +1,6 @@
 [
   {
-    "title":"RSS",
-    "drawable":"",
-    "submenu":"",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"Feed",
-        "provider":"rss",
-        "arguments":[
-          "https://ptah-alexs.info/rss-bridge/?action=display&bridge=Vk&u=gacha_life2&hide_reposts=on&format=Mrss"
-        ]
-      },
-      {
-        "title":"Instagram",
+    "title":"Instagram",
     "drawable":"",
     "submenu":"Social Media",
     "iap":false,
