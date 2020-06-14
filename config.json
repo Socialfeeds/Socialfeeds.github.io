@@ -9,14 +9,14 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://www.pinterest.ru/pinter/feed.rss"
+          "http://feeds.feedburner.com/blogspot/YZOzV"
         ]
       },
       {
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://yuji.ne.jp/twitter/nasa.xml"
+          "https://www.pinterest.ru/pinter/feed.rss"
         ]
       }
     ]
