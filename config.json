@@ -16,7 +16,7 @@
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://yuji.ne.jp/instagram/nasa.xml"
+          "https://yuji.ne.jp/twitter/nasa.xml"
         ]
       }
     ]
