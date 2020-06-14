@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://Socialfeeds.github.io/feed"
+          "http://feeds.feedburner.com/blogspot/YZOzV"
         ]
       },
       {
