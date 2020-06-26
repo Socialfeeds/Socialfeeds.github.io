@@ -6,10 +6,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
-        "provider":"rss",
+        "title":"Instagram",
+        "provider":"instagram",
         "arguments":[
-          "http://feeds.feedburner.com/blogspot/YZOzV"
+          "gachalife"
         ]
       },
       {
