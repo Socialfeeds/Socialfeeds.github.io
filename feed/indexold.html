@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>instagram tag testing</title>
+
+    <style>
+body{ 
+background: #00222d;
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+}
+    </style>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js'></script>
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-155072239-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-155072239-1');
+</script>
+  
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(56864044, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/56864044" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</head>
+<body> 
+  
+  <script type="text/javascript">
+(function(){
+  var pageInfo,
+      baseUrl;
+  //
+  function search(keyword, nextPage) {
+      loadMore.style.display = 'none';
+      previewMask.style.display = 'none';
+      loadingMask.style.display = 'flex';
+      keyword = encodeURI(keyword);
+      baseUrl = 'https://www.instagram.com/explore/tags/'+keyword+'/?__a=1';
+      if(nextPage && pageInfo) {
+        baseUrl += '&max_id=' + pageInfo.end_cursor;
+      } else {
+        result.innerHTML = "";
+      }
+      $.get(baseUrl, function(resp){ 
+        pageInfo = resp.graphql.hashtag.edge_hashtag_to_media['page_info'];
+        var count = resp.graphql.hashtag.edge_hashtag_to_media['count'],
+            edges = resp.graphql.hashtag.edge_hashtag_to_media['edges'];
+        
+        for(obj in edges) {
+          var div = document.createElement('div');
+          var img = document.createElement('img');
+          var node = edges[obj].node;
+          img.src = node.display_url;
+          img.style.width = '100%';
+          div.appendChild(img);
+          div.style.display = 'inline-block';
+          div.style.padding = '0px';
+          div.margin = 'auto';
+          result.appendChild(div);
+        }
+        //
+        window.scrollTo(0,document.body.scrollHeight);
+        loadingMask.style.display = 'none';
+        loadMore.style.display = pageInfo.has_next_page ? 'block' : 'none';
+      });
+  }
+  // UI
+  var searchForm = document.createElement('div'),
+      input = document.createElement('input'),
+      result = document.createElement('div'),
+      loadMore = document.createElement('div'),
+      loadingMask = document.createElement('div'),
+      loading = document.createElement('div'),
+      previewMask = document.createElement('div'),
+      preview = document.createElement('img');
+  
+  result.style.paddingTop = '40px';
+  result.addEventListener('click', function(e){
+    if (e.srcElement.nodeName === "IMG") {
+      previewMask.style.display = 'flex';
+      preview.src = e.srcElement.src;
+    }
+  });
+  
+  preview.style.width = '90%';
+  preview.style.margin = 'auto';
+  
+  previewMask.style.position = 'fixed';
+  previewMask.style.display = 'none';
+  previewMask.style.height = '100vh';
+  previewMask.style.width = '100vw';
+  previewMask.style.background = '#ccc8';
+  previewMask.appendChild(preview);
+  previewMask.addEventListener('click', function(){
+    previewMask.style.display = 'none';
+  });
+  loading.style.display = 'inline-block';
+  loading.style.width = '10px';
+  loading.style.height = '10px';
+  loading.style.background = 'blue';
+  loading.style.margin = 'auto';
+  loading.className = 'loading';
+  
+  loadingMask.style.position = 'fixed';
+  loadingMask.style.display = 'none';
+  loadingMask.style.height = '100vh';
+  loadingMask.style.width = '100vw';
+  loadingMask.style.background = '#ccc8';
+  loadingMask.appendChild(loading);
+  loadMore.textContent = ' [ ↓ ] More More More [ ↓ ] ';
+  loadMore.style.display = 'none';
+  loadMore.style.textAlign = 'center';
+  loadMore.style.background = 'Aqua';
+  loadMore.style.lineHeight = '2.5';
+  loadMore.style.cursor = 'pointer';
+  loadMore.addEventListener('click', function(){
+    search(input.value, true);
+  });
+  
+  input.placeholder = 'input keywords';
+  input.style.background = 'transparent';
+  input.style.textAlign = 'center';
+  input.style.color = 'Aqua'
+  input.style.height = '25px';
+  input.style.width = '95%';
+  input.style.lineHeight = '2';
+  input.style.fontSize = '20px';
+  input.addEventListener('keyup', function(e){
+    if(e.keyCode === 13) {
+      if(input.value.length < 2) {
+        alert('Please enter at least 2 characters');
+      } else {
+        search(input.value);
+      }  
+    }
+  });
+  searchForm.style.display = 'block';
+  searchForm.style.position = 'fixed';
+  searchForm.style.top = '5px';
+  searchForm.style.padding = '5px';
+  searchForm.style.width = '95%';
+  searchForm.style.textAlign = 'center';
+  searchForm.appendChild(input);
+  
+  document.body.appendChild(loadingMask);
+  document.body.appendChild(previewMask);
+  document.body.appendChild(searchForm);
+  document.body.appendChild(result);
+  document.body.appendChild(loadMore);
+  
+  // init
+  input.value = 'Gachalife';
+  search(input.value);
+})()
+</script>
+
+</body>
+</html>
