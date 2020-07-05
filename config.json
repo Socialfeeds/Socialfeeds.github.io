@@ -6,10 +6,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Instagram",
-        "provider":"instagram",
+        "title":"WordPress",
+        "provider":"WordPress",
         "arguments":[
-          "gachalife"
+          "https://smashballoon.com/instagram-feed/demo/"
         ]
       },
       {
