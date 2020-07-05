@@ -6,8 +6,8 @@
     "iap":false,
     "tabs":[
       {
-        "title":"WordPress",
-        "provider":"WordPress",
+        "title":"wordpress",
+        "provider":"wordpress",
         "arguments":[
           "https://smashballoon.com/instagram-feed/demo/"
         ]
