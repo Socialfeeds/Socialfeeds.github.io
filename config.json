@@ -9,7 +9,8 @@
         "title":"wordpress",
         "provider":"wordpress",
         "arguments":[
-          "https://smashballoon.com/instagram-feed/demo/"
+          "https://smashballoon.com",
+          "instagram-feed/demo"
         ]
       },
       {
