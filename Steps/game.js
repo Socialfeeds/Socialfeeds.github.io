@@ -6,7 +6,7 @@ var gameOptions = {
     backgroundColor: 0x08131a,
     visibleTargets: 9,
     ballDistance: 120,
-    rotationSpeed: 2,
+    rotationSpeed: 3,
     angleRange: [25, 155],
     localStorageName: "riskystepsgame"
 }
