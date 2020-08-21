@@ -1,8 +1,15 @@
-<!DOCTYPE html> 
-<html lang="en" >
+<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Hello</title>
+
+    <meta charset='utf-8'>
+    <title>SVG3DTagCloud - Example 1</title>
+        <link rel="icon" type="image/png" href="icon.png">
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='https://You-app.github.io/js/jquery.svg3dtagcloud.min.js'></script>
+
+    <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <style>
@@ -12,7 +19,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #000;
   font-size: 16px;
 }
 body {
@@ -23,7 +30,7 @@ body {
   align-content: stretch;
 }
 h1 {
-  color: #f1c40f;
+  color: #fff;
   font-size: 1rem;
   text-transform: uppercase;
   display: block;
@@ -36,7 +43,7 @@ h1 {
   }
 }
 p {
-  color: #000;
+  color: #fff;
   font-size: 0.8rem;
   width: 100%;
   padding: 20px;
@@ -60,6 +67,114 @@ p {
   background: transparent;
   }
 </style>
+
+    <style type='text/css'>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, font, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #000;
+        }
+    </style>
+
+    <script>
+    	$( document ).ready( function() {
+var entries = [ 
+   
+    { image: 'http://nkunited.de/ExternalImages/icons/Basket.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Lorem ipsum' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Briefcase.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Dolor sit amet' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Brush.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Consetetur sadipscing' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Calendar.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Sed diam' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Camera.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'At vero' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Cassette.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Nonumy eirmod' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Clock.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Stet clita' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Cloud_Download.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Justo duo' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Cloud_Upload.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Ut wisi enim' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Coffee.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Minim veniam' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Comments.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Quis nostrud' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Credit_Card.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Exerci tation' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Diary.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Duis autem' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Document.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Vel eum iriure' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Envelope.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Dolor in hendrerit' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Eraser.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'In vulputate' },
+    { image: 'http://nkunited.de/ExternalImages/icons/File_Browser.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Velit esse' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Games.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Molestie consequat' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Headphones.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Vel illum' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Heart.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Dolore eu' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Home.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Feugiat nulla' },
+    { image: 'http://nkunited.de/ExternalImages/icons/ID.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Facilisis at vero' },
+    { image: 'http://nkunited.de/ExternalImages/icons/iPod.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Eros et accumsa' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Key.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Et iusto odio' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Location.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Dignissim qui' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Location_Map.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Blandit praesent' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Map.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Nam liber' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Megaphone.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Soluta nobis' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Message.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Magna aliquam' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Microphone.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Duis autem' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Mobile.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Lori novis' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Money.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Meno eqiam' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Padlock.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Meno equox' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Pencil.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Iri orem' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Photo.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Orel pas' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Polaroid.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Psi sit' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Printer.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Amet et quam' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Record.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Molare cons' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Save.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Digi tal' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Scissors.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Felenope liber' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Spanner.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Officia dolor' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Toolbox.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Autem insto' },
+    { image: 'http://nkunited.de/ExternalImages/icons/Umbrella.png', width: '50', height: '50', url: 'soon', target: '_top', tooltip: 'Veniam isictus' }
+];
+var settings = {
+    entries: entries,
+    width: 1280,
+    height: 350,
+    radius: '65%',
+    radiusMin: 75,
+    bgDraw: true,
+    bgColor: '#000',
+    opacityOver: 1.00,
+    opacityOut: 0.05,
+    opacitySpeed: 6,
+    fov: 800,
+    speed: 0.2,
+    fontFamily: 'Oswald, Arial, sans-serif',
+    fontSize: '15',
+    fontColor: '#fff',
+    fontWeight: 'normal',//bold
+    fontStyle: 'normal',//italic 
+    fontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+    fontToUpperCase: true,
+    tooltipFontFamily: 'Oswald, Arial, sans-serif',
+    tooltipFontSize: '11',
+    tooltipFontColor: '#fff',
+    tooltipFontWeight: 'normal',//bold
+    tooltipFontStyle: 'normal',//italic 
+    tooltipFontStretch: 'normal',//wider, narrower, ultra-condensed, extra-condensed, condensed, semi-condensed, semi-expanded, expanded, extra-expanded, ultra-expanded
+    tooltipFontToUpperCase: false,
+    tooltipTextAnchor: 'left',
+    tooltipDiffX: 0,
+    tooltipDiffY: 10
+};
+$( '#tagcloud' ).svg3DTagCloud( settings );
+		} );
+        
+    </script>
   
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155072239-1"></script>
@@ -85,27 +200,24 @@ p {
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/56864044" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
-  
+
 </head>
+
 <body>
+   <div id='tagcloud'></div>
 
 <style>
 body{
 	text-align:center;
 }
-img {
-    max-width: 92%;
-    height: auto;
-}
 </style>
 	
-<img src="https://socialfeeds.github.io/chat2.gif">
 <!-- partial:index.partial.html -->
-<button class="btn third"><a style="color: #000;text-decoration:none" href="https://minnit.chat/EN?embed&dark&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
-<button class="btn third"><a style="color: #000;text-decoration:none" href="http://meet.youapp.space/" class="twitter-follow-button" data-show-count="false" data-size="large">Meet</a></button>
-<button class="btn third"><a style="color: #000;text-decoration:none" href="/games.html" class="twitter-follow-button" data-show-count="false" data-size="large">Play</a></button>
-<button class="btn third"><a style="color: #000;text-decoration:none" href="/prototype.html" class="twitter-follow-button" data-show-count="false" data-size="large">What you want?</a></button>
+<button class="btn third"><a style="color: #fff;text-decoration:none" href="https://minnit.chat/EN?embed&dark&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
+<button class="btn third"><a style="color: #fff;text-decoration:none" href="http://meet.youapp.space/" class="twitter-follow-button" data-show-count="false" data-size="large">Meet</a></button>
+<button class="btn third"><a style="color: #fff;text-decoration:none" href="/games.html" class="twitter-follow-button" data-show-count="false" data-size="large">Play</a></button>
+<button class="btn third"><a style="color: #fff;text-decoration:none" href="/prototype.html" class="twitter-follow-button" data-show-count="false" data-size="large">What you want?</a></button>
 <p>Inspiration for new ways to make interactive!</p>
 
+
 </body>
-</html>
