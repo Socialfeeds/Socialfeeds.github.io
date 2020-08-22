@@ -7,9 +7,14 @@
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <style>
 html, body {
-       background: url(https://raw.githubusercontent.com/Socialfeeds/Socialfeeds.github.io/master/background.jpg) no-repeat;
-       background-size: cover;
-  background-size: 100% 100%; 
+}
+#bg {
+        position:fixed;
+		z-index: -1;
+        top:0;
+        left:0; 
+        min-width:100%;
+        min-height:100%;
 }
 p {
   color: #fff;
@@ -51,7 +56,7 @@ img {
     height: auto;
 }
 </style>
-	
+	<img src="https://raw.githubusercontent.com/Socialfeeds/Socialfeeds.github.io/master/background.jpg" id="bg">
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=55cpk3w3s7h&amp;m=0&amp;c=ff00ff&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;s=220" async="async"></script>
 <!-- partial:index.partial.html -->
 <p></p>
