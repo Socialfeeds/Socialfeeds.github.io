@@ -1,58 +1,74 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-
-    <meta charset='utf-8'>
     <title>Hello world</title>
         <link rel="icon" type="image/png" href="/i0.png">
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script src='https://Socialfeeds.github.io/svg3dtagcloud.min.js'></script>
 
     <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    <script src='https://Socialfeeds.github.io/svg3dtagcloud.min.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
 <style>
-.well{
-font-family:Monotype Corsiva;
-font-size:20px;
-text-align:center;
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-size: 16px;
 }
-
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
-footer{
-text-align:center;
+h1 {
+  color: #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  text-align: center;
 }
-.card{
-box-shadow:0 4px 8px;
-color:white;
-width:auto;
-height:auto;
-text-align:center;
-  opacity:0.8;
-  border-radius:15px;
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
-.card:hover{
-box-shadow:0 8px 16px ;
+p {
+  color: #fff;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
-.me{
-font-family:Monotype Corsiva;
-font-size:27px;
-color:green;
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
 }
+.sb-img {
+  max-width: 281px;
+  height: 281px;
 }
-#font{
-font-size:27px;
-opacity:0.7;
-}
-.fa:hover{
-opacity:1.0;
-}
-.quote,.author{
-font-family:Monotype Corsiva;
-padding:8px;
-}
+.btn {
+  outline:none;
+  margin: 11px;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  background: transparent;
+  }
 </style>
 
     <style type='text/css'>
@@ -65,7 +81,7 @@ padding:8px;
         dl, dt, dd, ol, ul, li,
         fieldset, form, label, legend,
         table, caption, tbody, tfoot, thead, tr, th, td {
-            margin:0;
+            margin: 0;
             padding: 0;
             border: 0;
             outline: 0;
@@ -78,47 +94,8 @@ padding:8px;
             background-color: #000;
         }
     </style>
+
     <script>
-$(document).ready(function() {
-  var quote;
-  var author;
-  function newQuote() {
-    $.ajax({
-      url: "https://api.forismatic.com/api/1.0/",
-      jsonp: "jsonp",
-      dataType: "jsonp",
-      data: {
-        method: "getQuote",
-        lang: "en",
-        format: "jsonp"
-      },
-      success: function(apiResponse) {
-        author = apiResponse.quoteAuthor;
-        quote = apiResponse.quoteText;
-        if (author) {
-          author = "said by " + author;
-          $('#author').text(author);
-        } else {
-          $('#author').text("Unknown");
-        }
-        $('.quote').text(quote);
-
-      }
-    });
-  };
-  newQuote();
-
-  $('#get-quote').click(function(event) {
-    event.preventDefault();
-    newQuote();
-  });
-
-  $('#share-quote').click(function() {
-    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote + " — " + author));
-  });
-});
-
-
     	$( document ).ready( function() {
 var entries = [ 
    
@@ -199,16 +176,60 @@ var settings = {
 };
 $( '#tagcloud' ).svg3DTagCloud( settings );
 		} );
+    
+    
+    $(document).ready(function() {
+  var quote;
+  var author;
+  function newQuote() {
+    $.ajax({
+      url: "https://api.forismatic.com/api/1.0/",
+      jsonp: "jsonp",
+      dataType: "jsonp",
+      data: {
+        method: "getQuote",
+        lang: "en",
+        format: "jsonp"
+      },
+      success: function(apiResponse) {
+        author = apiResponse.quoteAuthor;
+        quote = apiResponse.quoteText;
+        if (author) {
+          author = "said by " + author;
+          $('#author').text(author);
+        } else {
+          $('#author').text("Unknown");
+        }
+        $('.quote').text(quote);
+
+      }
+    });
+  };
+  newQuote();
+
+  $('#get-quote').click(function(event) {
+    event.preventDefault();
+    newQuote();
+  });
+
+  $('#share-quote').click(function() {
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote + " — " + author));
+  });
+});
         
     </script>
-  
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
 </head>
 
 <body>
    <div id='tagcloud'></div>
-	
+
+<style>
+body{
+	text-align:center;
+}
+</style>
+
+
 <div class="container">
 
 <center><div class="card">
@@ -216,8 +237,8 @@ $( '#tagcloud' ).svg3DTagCloud( settings );
 <p id="author" class="author"></p>
 </div></center>
 <center><ul class="list-inline">
-<li class="btn btn-info" id="get-quote"><i class="fa fa-quote-left"></i>Next Quote</li>
-<li class="btn btn-success share-quote" id="share-quote"><i class="fa fa-share-square"></i>Share</li>
+<li class="btn btn-info" id="get-quote"><i class="fa fa-quote-left"></i> Next Quote</li>
+<li class="btn btn-success share-quote" id="share-quote"><i class="fa fa-share-square"></i> Share</li>
   </ul>
 
 
@@ -229,8 +250,7 @@ $( '#tagcloud' ).svg3DTagCloud( settings );
 <li><a href="https://twitter.com/Rupeshkrj2"><i class="fa fa-twitter-square"></i></a></li>
 </ul>
 </center>
-<script src="Random.js"></script></div>
-
-
+<script src="Random.js"></script>
+</div>
 </body>
 </html>
