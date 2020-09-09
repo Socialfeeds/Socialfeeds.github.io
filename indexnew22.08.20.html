@@ -195,7 +195,7 @@ $( '#tagcloud' ).svg3DTagCloud( settings );
         author = apiResponse.quoteAuthor;
         quote = apiResponse.quoteText;
         if (author) {
-          author = "said by " + author;
+          author = "© " + author;
           $('#author').text(author);
         } else {
           $('#author').text("Unknown");
@@ -234,7 +234,6 @@ body{
 
 <center><div class="card">
 <p id="quote" class="quote"></p>
-<br>
 <p id="author" class="author"></p>
 </div></center>
 <center><ul class="list-inline">
