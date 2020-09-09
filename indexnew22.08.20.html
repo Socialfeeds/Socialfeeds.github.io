@@ -7,65 +7,52 @@
     <title>Hello world</title>
         <link rel="icon" type="image/png" href="/i0.png">
     <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
-    <script src='/svg3dtagcloud.min.js'></script>
+    <script src='https://Socialfeeds.github.io/svg3dtagcloud.min.js'></script>
 
     <link href='https://fonts.googleapis.com/css?family=Oswald&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <style>
-html,
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  background: #000;
-  font-size: 16px;
+.well{
+font-family:Monotype Corsiva;
+font-size:20px;
+text-align:center;
+
 }
-body {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch;
+
 }
-h1 {
-  color: #fff;
-  font-size: 1rem;
-  text-transform: uppercase;
-  display: block;
-  width: 100%;
-  text-align: center;
+footer{
+text-align:center;
 }
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
+.card{
+box-shadow:0 4px 8px;
+color:white;
+width:auto;
+height:auto;
+text-align:center;
+  opacity:0.8;
+  border-radius:15px;
 }
-p {
-  color: #fff;
-  font-size: 0.8rem;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
+.card:hover{
+box-shadow:0 8px 16px ;
 }
-.btn:hover, .btn:focus {
-  color: #fff;
-  outline: 0;
+.me{
+font-family:Monotype Corsiva;
+font-size:27px;
+color:green;
 }
-.sb-img {
-  max-width: 281px;
-  height: 281px;
 }
-.btn {
-  outline:none;
-  margin: 11px;
-  height: 40px;
-  text-align: center;
-  width: 130px;
-  border-radius:40px;
-  background: transparent;
-  }
+#font{
+font-size:27px;
+opacity:0.7;
+}
+.fa:hover{
+opacity:1.0;
+}
+.quote,.author{
+font-family:Monotype Corsiva;
+padding:8px;
+}
 </style>
 
     <style type='text/css'>
@@ -78,7 +65,7 @@ p {
         dl, dt, dd, ol, ul, li,
         fieldset, form, label, legend,
         table, caption, tbody, tfoot, thead, tr, th, td {
-            margin: 0;
+            margin:0;
             padding: 0;
             border: 0;
             outline: 0;
@@ -91,8 +78,47 @@ p {
             background-color: #000;
         }
     </style>
-
     <script>
+$(document).ready(function() {
+  var quote;
+  var author;
+  function newQuote() {
+    $.ajax({
+      url: "https://api.forismatic.com/api/1.0/",
+      jsonp: "jsonp",
+      dataType: "jsonp",
+      data: {
+        method: "getQuote",
+        lang: "en",
+        format: "jsonp"
+      },
+      success: function(apiResponse) {
+        author = apiResponse.quoteAuthor;
+        quote = apiResponse.quoteText;
+        if (author) {
+          author = "said by " + author;
+          $('#author').text(author);
+        } else {
+          $('#author').text("Unknown");
+        }
+        $('.quote').text(quote);
+
+      }
+    });
+  };
+  newQuote();
+
+  $('#get-quote').click(function(event) {
+    event.preventDefault();
+    newQuote();
+  });
+
+  $('#share-quote').click(function() {
+    window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(quote + " — " + author));
+  });
+});
+
+
     	$( document ).ready( function() {
 var entries = [ 
    
@@ -182,16 +208,28 @@ $( '#tagcloud' ).svg3DTagCloud( settings );
 
 <body>
    <div id='tagcloud'></div>
-
-<style>
-body{
-	text-align:center;
-}
-</style>
 	
-<!-- partial:index.partial.html -->
-<button class="btn third"><a style="color: #fff;text-decoration:none" href="https://you-app.github.io/Random-Quote-Generator/" class="twitter-follow-button" data-show-count="false" data-size="large">+</a></button>
-<p>Inspiration for new ways to make interactive!</p>
+<div class="container">
+
+<center><div class="card">
+<p id="quote" class="quote"></p>
+<p id="author" class="author"></p>
+</div></center>
+<center><ul class="list-inline">
+<li class="btn btn-info" id="get-quote"><i class="fa fa-quote-left"></i>Next Quote</li>
+<li class="btn btn-success share-quote" id="share-quote"><i class="fa fa-share-square"></i>Share</li>
+  </ul>
+
+
+<ul class="list-inline" id="font">
+<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+<li><a href="https://github.com/Rupeshiya"><i class="fa fa-github"></i></a></li>
+<li><a href=""><i class="fa fa-medium"></i></a></li>
+<li><a href="https://www.linkedin.com/in/rupesh-jha-7aab6b155/"><i class="fa fa-linkedin-square"></i></a></li>
+<li><a href="https://twitter.com/Rupeshkrj2"><i class="fa fa-twitter-square"></i></a></li>
+</ul>
+</center>
+<script src="Random.js"></script></div>
 
 
 </body>
