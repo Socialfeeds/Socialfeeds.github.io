@@ -22,7 +22,7 @@ h1 {
   width: 100%;
   text-align: center;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   h1 {
     font-size: 2rem;
   }
@@ -98,16 +98,20 @@ img {
     max-width: 92%;
     height: auto;
 }
+.div {
+  left:0; 
+  min-width:100%;
+  position:fixed;
+  max-width:100%;
+  bottom:50px;
+}
 </style>
-<p></p>
-<img src="https://raw.githubusercontent.com/Socialfeeds/Socialfeeds.github.io/master/background.jpg" id="bg">
-<img src="/gifchat.gif">
-<p></p>
+<img src="/e.jpg" id="bg">
 <!-- partial:index.partial.html -->
+<div class="div">
 <button class="btn third"><a style="color: #fff;text-decoration:none" href="https://minnit.chat/EN?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat</a></button>
 <button class="btn third"><a style="color: #fff;text-decoration:none" href="https://minnit.chat/ChatTorD?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat T or D</a></button>
-<button class="btn third"><a style="color: #fff;text-decoration:none" href="https://minnit.chat/ChatGachaClub?embed&nickname=" class="twitter-follow-button" data-show-count="false" data-size="large">Chat Gacha Club</a></button>
 <p>Inspiration for new ways to make interactive!</p>
-
+</div>
 </body>
 </html>
