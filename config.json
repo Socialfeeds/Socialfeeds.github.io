@@ -6,18 +6,17 @@
     "iap":false,
     "tabs":[
       {
-        "title":"wordpress",
-        "provider":"wordpress",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "http://gachalife.online",
-          "instagram-feed/demo"
+          "http://gachalife.online/media/-/index.rss"
         ]
       },
       {
         "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "http://gachalife.online/media/-/index.rss"
+          "http://gachalife.online/forums/-/index.rss"
         ]
       }
     ]
