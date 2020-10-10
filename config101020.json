@@ -1,0 +1,25 @@
+[
+  {
+    "title":"RSS",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"wordpress",
+        "provider":"wordpress",
+        "arguments":[
+          "https://smashballoon.com",
+          "instagram-feed/demo"
+        ]
+      },
+      {
+        "title":"Podcast",
+        "provider":"rss",
+        "arguments":[
+          "https://www.pinterest.ru/pinter/feed.rss"
+        ]
+      }
+    ]
+  }
+]
