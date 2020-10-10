@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"Podcast",
-        "provider":"rss",
+        "title":"WebView",
+        "provider":"webview",
         "arguments":[
-          "http://gachalife.online/forums/-/index.rss"
+          "http://gachalife.online"
         ]
       }
     ]
