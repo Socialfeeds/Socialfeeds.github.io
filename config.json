@@ -78,7 +78,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://feeds.feedburner.com/AndroidPolice"
+          "https://Socialfeeds.github.io/db.json"
         ]
       },
       {
