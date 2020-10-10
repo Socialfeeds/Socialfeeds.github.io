@@ -6,10 +6,16 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Recent",
-        "provider":"wordpress",
+        "title":"RSS",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "gachalife.online"
+          "http://gachalife.online/media/-/index.rss"
         ]
       },
       {
@@ -78,7 +84,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://Socialfeeds.github.io/db.json"
+          "http://gachalife.online/media/-/index.rss"
         ]
       },
       {
