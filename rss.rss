@@ -1,114 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
   <channel>
-    <title>Media items</title>
-    <description>RSS feed for all media from Gacha Life Portal</description>
-    <pubDate>Mon, 12 Oct 2020 08:53:05 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2020 08:53:05 +0000</lastBuildDate>
-    <generator>Gacha Life Portal</generator>
-    <link>https://gachalife.online/</link>
     <atom:link rel="self" type="application/rss+xml" href="https://gachalife.online/media/"/>
     <item>
-      <title>PicsArt_10-10-03.30.46.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://gachalife.online/media/picsart_10-10-03-30-46-jpg.31/</link>
-      <guid>https://gachalife.online/media/picsart_10-10-03-30-46-jpg.31/</guid>
-      <author>invalid@example.com (UnberablePain)</author>
-      <category domain="https://gachalife.online/media/categories/anime.3/"><![CDATA[Anime]]></category>
-      <dc:creator>UnberablePain</dc:creator>
-      <content:encoded><![CDATA[
-	<p>
-		
-			<img src="https://gachalife.online/media/picsart_10-10-03-30-46-jpg.31/full" alt="PicsArt_10-10-03.30.46.jpg" width="500" />
-		
-	</p>
-	
-	<p>
-		<a href="https://gachalife.online/media/picsart_10-10-03-30-46-jpg.31/" target="_blank">View this media item</a>
-	</p>
-]]></content:encoded>
-      <slash:comments>0</slash:comments>
-    </item>
-    <item>
-      <title>PicsArt_10-10-03.31.04.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://gachalife.online/media/picsart_10-10-03-31-04-jpg.30/</link>
-      <guid>https://gachalife.online/media/picsart_10-10-03-31-04-jpg.30/</guid>
-      <author>invalid@example.com (UnberablePain)</author>
-      <category domain="https://gachalife.online/media/categories/anime.3/"><![CDATA[Anime]]></category>
-      <dc:creator>UnberablePain</dc:creator>
-      <content:encoded><![CDATA[
 	<p>
 		
 			<img src="https://gachalife.online/media/picsart_10-10-03-31-04-jpg.30/full" alt="PicsArt_10-10-03.31.04.jpg" width="500" />
 		
 	</p>
-	
-	<p>
-		<a href="https://gachalife.online/media/picsart_10-10-03-31-04-jpg.30/" target="_blank">View this media item</a>
-	</p>
 ]]></content:encoded>
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>PicsArt_10-10-03.31.21.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://gachalife.online/media/picsart_10-10-03-31-21-jpg.29/</link>
-      <guid>https://gachalife.online/media/picsart_10-10-03-31-21-jpg.29/</guid>
-      <author>invalid@example.com (UnberablePain)</author>
-      <category domain="https://gachalife.online/media/categories/anime.3/"><![CDATA[Anime]]></category>
-      <dc:creator>UnberablePain</dc:creator>
-      <content:encoded><![CDATA[
 	<p>
 		
 			<img src="https://gachalife.online/media/picsart_10-10-03-31-21-jpg.29/full" alt="PicsArt_10-10-03.31.21.jpg" width="500" />
 		
 	</p>
-	
-	<p>
-		<a href="https://gachalife.online/media/picsart_10-10-03-31-21-jpg.29/" target="_blank">View this media item</a>
-	</p>
 ]]></content:encoded>
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>2.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://gachalife.online/media/2-jpg.3/</link>
-      <guid>https://gachalife.online/media/2-jpg.3/</guid>
-      <author>invalid@example.com (Admin)</author>
-      <category domain="https://gachalife.online/media/categories/gacha-life.1/"><![CDATA[Gacha Life]]></category>
-      <dc:creator>Admin</dc:creator>
-      <content:encoded><![CDATA[
 	<p>
 		
 			<img src="https://gachalife.online/media/2-jpg.3/full" alt="2.jpg" width="500" />
 		
 	</p>
-	
-	<p>
-		<a href="https://gachalife.online/media/2-jpg.3/" target="_blank">View this media item</a>
-	</p>
 ]]></content:encoded>
       <slash:comments>0</slash:comments>
     </item>
     <item>
-      <title>1.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://gachalife.online/media/1-jpg.2/</link>
-      <guid>https://gachalife.online/media/1-jpg.2/</guid>
-      <author>invalid@example.com (Admin)</author>
-      <category domain="https://gachalife.online/media/categories/gacha-life.1/"><![CDATA[Gacha Life]]></category>
-      <dc:creator>Admin</dc:creator>
-      <content:encoded><![CDATA[
 	<p>
 		
 			<img src="https://gachalife.online/media/1-jpg.2/full" alt="1.jpg" width="500" />
 		
-	</p>
-	
-	<p>
-		<a href="https://gachalife.online/media/1-jpg.2/" target="_blank">View this media item</a>
 	</p>
 ]]></content:encoded>
       <slash:comments>0</slash:comments>
