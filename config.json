@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"WebView",
-        "provider":"webview",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "https://hipwallpaper.com/rss-desktop-backgrounds/"
+          "https://Socialfeeds.github.io/db.json"
         ]
       }
     ]
