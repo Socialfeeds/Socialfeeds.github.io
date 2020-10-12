@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://socialfeeds.github.io/rss.html"
+          "https://glc-test.blogspot.com/feeds/posts/default"
         ]
       },
       {
