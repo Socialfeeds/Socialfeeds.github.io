@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"WebView",
-        "provider":"webview",
+        "title":"Tumblr",
+        "provider":"tumblr",
         "arguments":[
-          "http://gachalife.online"
+          "beeple"
         ]
       }
     ]
