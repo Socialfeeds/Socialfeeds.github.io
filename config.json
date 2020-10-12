@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://www.photoforum.ru/rss/part.3.top_photos.ru.xml"
+          "https://socialfeeds.github.io/rss.rss"
         ]
       },
       {
