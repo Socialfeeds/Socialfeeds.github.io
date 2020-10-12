@@ -1,29 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
-  <channel>
-    <title>Media items</title>
-    <description>RSS feed for all media in category Gacha Life</description>
-    <pubDate>Mon, 12 Oct 2020 10:33:27 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2020 10:33:27 +0000</lastBuildDate>
-    <generator>Gacha Life Portal</generator>
-    <link>https://gachalife.online/</link>
-    <atom:link rel="self" type="application/rss+xml" href="https://gachalife.online/media/categories/gacha-life.1/"/>
-    <item>
-      <title>17.jpg</title>
-      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
-      <link>https://sun9-41.userapi.com/5iAtWSnfNRvFop7OhCv7sMqJJwNVHfrrZ_rgDw/DL4PUTWpqyU.jpg/</link>
-      <guid>https://sun9-41.userapi.com/5iAtWSnfNRvFop7OhCv7sMqJJwNVHfrrZ_rgDw/DL4PUTWpqyU.jpg</guid>
-      <author>invalid@example.com (Admin)</author>
-      <category domain="https://gachalife.online/media/categories/gacha-life.1/"><![CDATA[Gacha Life]]></category>
-      <dc:creator>Admin</dc:creator>
-      <content:encoded><![CDATA[
-	<p>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+
+		<item>
+		<title>Pakistan bans TikTok for allowing 'immoral and indecent' content</title>
+		<link>http://feedproxy.google.com/~r/AndroidPolice/~3/HmaghC7dFoI/</link>
+					<comments>https://www.androidpolice.com/2020/10/09/pakistan-bans-tiktok-for-allowing-immoral-and-indecent-content/#comments</comments>
 		
-			<img src="https://sun9-41.userapi.com/5iAtWSnfNRvFop7OhCv7sMqJJwNVHfrrZ_rgDw/DL4PUTWpqyU.jpg" alt="17.jpg" width="500" />
+		<dc:creator><![CDATA[Caleb Potts]]></dc:creator>
+		<pubDate>Fri, 09 Oct 2020 15:53:14 +0000</pubDate>
+				<category><![CDATA[Applications]]></category>
+		<category><![CDATA[News]]></category>
+		<category><![CDATA[banned app]]></category>
+		<category><![CDATA[bytedance]]></category>
+		<category><![CDATA[Pakistan]]></category>
+		<category><![CDATA[PTA]]></category>
+		<category><![CDATA[tiktok]]></category>
+		<category><![CDATA[tiktok ban]]></category>
+		<guid isPermaLink="false">https://www.androidpolice.com/?p=715093</guid>
+
+					<description>President Trump is taking notes
+&lt;p&gt;&lt;a href="https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01.png" class=" no-style"&gt;&lt;img class="alignnone size-hero-size wp-image-715095" src="https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-728x409.png" alt="" width="728" height="409" srcset="https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-728x409.png 728w, https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-329x185.png 329w, https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-668x376.png 668w, https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-161x91.png 161w, https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01-217x122.png 217w, https://www.androidpolice.com/wp-content/uploads/2020/10/09/TikTokPakistanHero-01.png 1883w" sizes="(max-width: 728px) 100vw, 728px"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TikTok may have narrowly &lt;a href="https://www.androidpolice.com/2020/09/28/tiktok-temporarily-avoids-us-ban-thanks-to-last-minute-ruling/"&gt;avoided being banned in the US for the time being&lt;/a&gt;, but it couldn't escape the iron judgment of the Pakistan Telecommunication Authority. This morning, the PTA issued an announcement that after multiple warnings to the viral video app, it is banning the service until better moderation practices against immoral and indecent content are enacted.&lt;/p&gt;
+&lt;p&gt;&lt;span id="more-715093"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;The press release, published on the PTA's official Twitter account, states that TikTok has received a large number of complaints against it, which object to the amounts of "immoral/indecent content" on the platform.&lt;/p&gt;&lt;div class=clear&gt;&lt;/div&gt; &lt;a href="https://www.androidpolice.com/2020/10/09/pakistan-bans-tiktok-for-allowing-immoral-and-indecent-content/" class="read-more"&gt;Read More &lt;/a&gt;&lt;p&gt;&lt;a href='https://www.androidpolice.com/2020/10/09/pakistan-bans-tiktok-for-allowing-immoral-and-indecent-content/'&gt;Pakistan bans TikTok for allowing 'immoral and indecent' content&lt;/a&gt; was written by the awesome team at &lt;a href='http://www.androidpolice.com'&gt;Android Police&lt;/a&gt;.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=HmaghC7dFoI:63dDEGHvpdQ:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=HmaghC7dFoI:63dDEGHvpdQ:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=HmaghC7dFoI:63dDEGHvpdQ:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=HmaghC7dFoI:63dDEGHvpdQ:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=HmaghC7dFoI:63dDEGHvpdQ:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/AndroidPolice/~4/HmaghC7dFoI" height="1" width="1" alt=""/&gt;</description>
 		
-	</p>
-]]></content:encoded>
-      <slash:comments>0</slash:comments>
-    </item>
-  </channel>
-</rss>
+					<wfw:commentRss>https://www.androidpolice.com/2020/10/09/pakistan-bans-tiktok-for-allowing-immoral-and-indecent-content/feed/</wfw:commentRss>
+			<slash:comments>30</slash:comments>
+		
+		
+			<feedburner:origLink>https://www.androidpolice.com/2020/10/09/pakistan-bans-tiktok-for-allowing-immoral-and-indecent-content/</feedburner:origLink></item>
+	</channel>
+</rss><!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 638/821 objects using memcached
+Page Caching using memcached (User agent is rejected) 
+
+Served from: www.androidpolice.com @ 2020-10-11 11:19:31 by W3 Total Cache
+-->
