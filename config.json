@@ -1,5 +1,21 @@
 [
   {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.google.com"
+        ]
+      }
+    ]
+  }
+  },
+  {
     "title":"RSS",
     "drawable":"",
     "submenu":"",
@@ -9,14 +25,29 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://glc-test.blogspot.com/feeds/posts/default"
+          "http://feeds.feedburner.com/AndroidPolice"
         ]
       },
       {
-        "title":"Feed",
+        "title":"Podcast",
         "provider":"rss",
         "arguments":[
-          "https://appswall.github.io/gl.json"
+          "http://feeds.nature.com/nature/podcast/current"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"WebView",
+    "drawable":"",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"WebView",
+        "provider":"webview",
+        "arguments":[
+          "http://www.google.com"
         ]
       }
     ]
