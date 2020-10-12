@@ -16,7 +16,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://Socialfeeds.github.io/db.json"
+          "https://appswall.github.io/gl.json"
         ]
       }
     ]
