@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"Podcast",
+        "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://feeds.nature.com/nature/podcast/current"
+          "https://news.yandex.ru/science.rss"
         ]
       }
     ]
