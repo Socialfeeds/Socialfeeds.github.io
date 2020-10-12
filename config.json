@@ -16,7 +16,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://www.finam.ru/analysis/conews/rsspoint"
+          "http://ayay.co.uk/rss/feed/action_games/"
         ]
       }
     ]
