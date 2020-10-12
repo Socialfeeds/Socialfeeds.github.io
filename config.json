@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"Twitter",
-        "provider":"twitter",
+        "title":"Podcast",
+        "provider":"rss",
         "arguments":[
-          "Android"
+          "http://feeds.nature.com/nature/podcast/current"
         ]
       }
     ]
