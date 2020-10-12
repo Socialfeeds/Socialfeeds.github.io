@@ -9,14 +9,14 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://www.liga.net/biz/photo/rss.xml"
+          "https://socialfeeds.github.io/rss.html"
         ]
       },
       {
         "title":"",
         "provider":"custom",
         "arguments":[
-          "http://www.agentwp.com/wp-content/uploads/rss-feed-icon.jpg"
+          ""
         ]
       }
     ]
