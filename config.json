@@ -6,10 +6,10 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Categories",
-        "provider":"overview",
+        "title":"Feed",
+        "provider":"rss",
         "arguments":[
-          "overview.json"
+          "https://digitalblasphemy.com/rss/db.xml"
         ]
       },
       {
