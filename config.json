@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://static.newsriver.org/afp/rss.xml"
+          "https://www.liga.net/biz/photo/rss.xml"
         ]
       },
       {
