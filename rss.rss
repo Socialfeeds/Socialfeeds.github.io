@@ -1,7 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-<channel>
 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:webfeeds="http://webfeeds.org/rss/1.0" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Android Police – Android news, reviews, apps, games, phones, tablets</title>
+	
+	<link>https://www.androidpolice.com</link>
+	<description>Looking after everything Android</description>
+	<lastBuildDate>Sun, 11 Oct 2020 18:18:31 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4.2</generator>
+
+<webfeeds:cover image="https://www.androidpolice.com/wp-content/themes/ap2/images/apple-touch-icon.png" />
+<webfeeds:logo>https://www.androidpolice.com/wp-content/themes/ap2/images/apple-touch-icon.png</webfeeds:logo>
+<webfeeds:icon>https://www.androidpolice.com/wp-content/themes/ap2/images/apple-touch-icon.png</webfeeds:icon>
+<webfeeds:wordmark>https://www.androidpolice.com/wp-content/themes/ap2/images/ap-logo-textonly.svg</webfeeds:wordmark>
+<webfeeds:accentColor>157bda</webfeeds:accentColor>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/AndroidPolice" /><feedburner:info uri="androidpolice" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://androidpolice.superfeedr.com/" /><feedburner:emailServiceId>AndroidPolice</feedburner:emailServiceId><feedburner:feedburnerHostname>https://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>Weekend poll: Did you buy a Nest Audio?</title>
+		<link>http://feedproxy.google.com/~r/AndroidPolice/~3/KMuowGYCou0/</link>
+					<comments>https://www.androidpolice.com/2020/10/11/weekend-poll-did-you-buy-a-nest-audio/#respond</comments>
+		
+		<dc:creator><![CDATA[Ryne Hager]]></dc:creator>
+		<pubDate>Sun, 11 Oct 2020 18:18:31 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Polls]]></category>
+		<category><![CDATA[Videos]]></category>
+		<category><![CDATA[Nest Audio]]></category>
+		<category><![CDATA[poll]]></category>
+		<category><![CDATA[sidebar-poll]]></category>
+		<category><![CDATA[video]]></category>
+		<category><![CDATA[weekend poll]]></category>
+		<guid isPermaLink="false">https://www.androidpolice.com/?p=715270</guid>
+
+					<description>Google&amp;#039;s latest smart speaker has a lot of benefits
+&lt;p&gt;&lt;a href="https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-scaled.jpg" class=" no-style"&gt;&lt;img class="size-hero-size wp-image-713693" src="https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-728x485.jpg" alt="" width="728" height="485" srcset="https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-728x485.jpg 728w, https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-329x219.jpg 329w, https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-668x445.jpg 668w, https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-161x107.jpg 161w, https://www.androidpolice.com/wp-content/uploads/2020/10/03/nest-audio-1_XtmlLZh4R6xV-217x145.jpg 217w" sizes="(max-width: 728px) 100vw, 728px"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We were &lt;em&gt;profoundly&lt;/em&gt; impressed with the performance of Google's new Nest Audio in &lt;a href="https://www.androidpolice.com/2020/10/05/google-nest-audio-review/"&gt;our recent review&lt;/a&gt;. As we wait for the rest of the Launch Night In products like the Pixel 5 to actually materialize, the Nest Audio is currently available and shipping. So we're curious to know: Did you buy one?&lt;/p&gt;
+&lt;p&gt;&lt;span id="more-715270"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;a href="https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-scaled.jpg" class=" no-style"&gt;&lt;img class="size-large wp-image-713744" src="https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-668x445.jpg" alt="" width="668" height="445" srcset="https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-668x445.jpg 668w, https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-329x219.jpg 329w, https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-161x107.jpg 161w, https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-217x145.jpg 217w, https://www.androidpolice.com/wp-content/uploads/2020/10/04/nest-audio-google-home_dwziNu1oDtYl-728x485.jpg 728w" sizes="(max-width: 668px) 100vw, 668px"/&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p style="text-align: center;"&gt;&lt;em&gt;&lt;a href="https://youtu.be/ha-uagjJQ9k?t=20"&gt;Old and busted, new hotness.&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The new Nest Audio has some substantial improvements over the original Google Home.&lt;/p&gt;&lt;div class=clear&gt;&lt;/div&gt; &lt;a href="https://www.androidpolice.com/2020/10/11/weekend-poll-did-you-buy-a-nest-audio/" class="read-more"&gt;Read More &lt;/a&gt;&lt;p&gt;&lt;a href='https://www.androidpolice.com/2020/10/11/weekend-poll-did-you-buy-a-nest-audio/'&gt;Weekend poll: Did you buy a Nest Audio?&lt;/a&gt; was written by the awesome team at &lt;a href='http://www.androidpolice.com'&gt;Android Police&lt;/a&gt;.&lt;/p&gt;&lt;div class="feedflare"&gt;
+&lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:D7DqB2pKExk"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=KMuowGYCou0:m53GJUD8_4U:D7DqB2pKExk" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:yIl2AUoC8zA"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?d=yIl2AUoC8zA" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:qj6IDK7rITs"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?d=qj6IDK7rITs" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:V_sGLiPBpWU"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=KMuowGYCou0:m53GJUD8_4U:V_sGLiPBpWU" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:-BTjWOF_DHI"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=KMuowGYCou0:m53GJUD8_4U:-BTjWOF_DHI" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~ff/AndroidPolice?a=KMuowGYCou0:m53GJUD8_4U:F7zBnMyn0Lo"&gt;&lt;img src="http://feeds.feedburner.com/~ff/AndroidPolice?i=KMuowGYCou0:m53GJUD8_4U:F7zBnMyn0Lo" border="0"&gt;&lt;/img&gt;&lt;/a&gt;
+&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/~r/AndroidPolice/~4/KMuowGYCou0" height="1" width="1" alt=""/&gt;</description>
+		
+					<wfw:commentRss>https://www.androidpolice.com/2020/10/11/weekend-poll-did-you-buy-a-nest-audio/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			<feedburner:origLink>https://www.androidpolice.com/2020/10/11/weekend-poll-did-you-buy-a-nest-audio/</feedburner:origLink></item>
 		<item>
 		<title>Pakistan bans TikTok for allowing 'immoral and indecent' content</title>
 		<link>http://feedproxy.google.com/~r/AndroidPolice/~3/HmaghC7dFoI/</link>
