@@ -13,8 +13,8 @@
         ]
       },
       {
-        "title":"Feed",
-        "provider":"rss",
+        "title":"WebView",
+        "provider":"webview",
         "arguments":[
           "https://hipwallpaper.com/rss-desktop-backgrounds/"
         ]
