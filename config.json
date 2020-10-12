@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"Wordpress",
-        "provider":"wordpress_images",
+        "title":"",
+        "provider":"custom",
         "arguments":[
-          "en.blog.wordpress.com"
+          "http://www.agentwp.com/wp-content/uploads/rss-feed-icon.jpg"
         ]
       }
     ]
