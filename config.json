@@ -13,10 +13,10 @@
         ]
       },
       {
-        "title":"Tumblr",
-        "provider":"tumblr",
+        "title":"Wordpress",
+        "provider":"wordpress_images",
         "arguments":[
-          "beeple"
+          "en.blog.wordpress.com"
         ]
       }
     ]
