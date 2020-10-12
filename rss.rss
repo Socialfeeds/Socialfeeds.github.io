@@ -3,6 +3,9 @@
 <title>ФотоФорум.ру: фоторейтинг: топ фото за месяц</title>
 <item>
 <enclosure url="https://www.photoforum.ru/f/photo.th/000/880/880112_75.th.jpg" length="10000" type="image/jpeg"/>
+<figure>
+    <img src="https://www.photoforum.ru/f/photo.th/000/880/880112_75.th.jpg" width="1200" height="900">
+        <figcaption>
 </item>
 </channel>
 <!--  cached  -->
