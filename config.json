@@ -16,7 +16,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://news.yandex.ru/science.rss"
+          "https://www.finam.ru/analysis/conews/rsspoint"
         ]
       }
     ]
