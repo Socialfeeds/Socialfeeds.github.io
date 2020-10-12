@@ -6,17 +6,17 @@
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
-        "provider":"rss",
+        "title":"Categories",
+        "provider":"overview",
         "arguments":[
-          "https://socialfeeds.github.io/rss.html"
+          "overview.json"
         ]
       },
       {
-        "title":"",
-        "provider":"custom",
+        "title":"Twitter",
+        "provider":"twitter",
         "arguments":[
-          ""
+          "Android"
         ]
       }
     ]
