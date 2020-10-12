@@ -1,52 +1,31 @@
 [
   {
-    "title":"WebView",
+    "title":"GL",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"WebView",
+        "title":"Portal",
         "provider":"webview",
         "arguments":[
-          "http://www.google.com"
+          "https://gachalife.online/"
         ]
       }
     ]
+  }
   },
   {
-    "title":"RSS",
+    "title":"Wall",
     "drawable":"",
     "submenu":"",
     "iap":false,
     "tabs":[
       {
-        "title":"Feed",
+        "title":"W",
         "provider":"rss",
         "arguments":[
-          "http://feeds.feedburner.com/AndroidPolice"
-        ]
-      },
-      {
-        "title":"Podcast",
-        "provider":"rss",
-        "arguments":[
-          "http://feeds.nature.com/nature/podcast/current"
-        ]
-      }
-    ]
-  },
-  {
-    "title":"WebView",
-    "drawable":"",
-    "submenu":"Other",
-    "iap":false,
-    "tabs":[
-      {
-        "title":"WebView",
-        "provider":"webview",
-        "arguments":[
-          "http://www.google.com"
+          "https://glc-test.blogspot.com/feeds/posts/default"
         ]
       }
     ]
