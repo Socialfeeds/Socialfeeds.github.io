@@ -1,12 +1,46 @@
-<rss version="2.0">
-<channel>
-<title>ФотоФорум.ру: фоторейтинг: топ фото за месяц</title>
-<item>
-<enclosure url="https://www.photoforum.ru/f/photo.th/000/880/880112_75.th.jpg" length="10000" type="image/jpeg"/>
-<figure>
-    <img src="https://www.photoforum.ru/f/photo.th/000/880/880112_75.th.jpg" width="1200" height="900">
-        <figcaption>
-</item>
-</channel>
-<!--  cached  -->
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/">
+  <channel>
+    <title>Media items</title>
+    <description>RSS feed for all media in category Gacha Life</description>
+    <pubDate>Mon, 12 Oct 2020 10:33:27 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2020 10:33:27 +0000</lastBuildDate>
+    <generator>Gacha Life Portal</generator>
+    <link>https://gachalife.online/</link>
+    <atom:link rel="self" type="application/rss+xml" href="https://gachalife.online/media/categories/gacha-life.1/"/>
+    <item>
+      <title>17.jpg</title>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <link>https://gachalife.online/media/17-jpg.18/</link>
+      <guid>https://gachalife.online/media/17-jpg.18/</guid>
+      <author>invalid@example.com (Admin)</author>
+      <category domain="https://gachalife.online/media/categories/gacha-life.1/"><![CDATA[Gacha Life]]></category>
+      <dc:creator>Admin</dc:creator>
+      <content:encoded><![CDATA[
+	<p>
+		
+			<img src="https://gachalife.online/media/17-jpg.18/full" alt="17.jpg" width="500" />
+		
+	</p>
+]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
+    <item>
+      <title>16.jpg</title>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
+      <link>https://gachalife.online/media/16-jpg.17/</link>
+      <guid>https://gachalife.online/media/16-jpg.17/</guid>
+      <author>invalid@example.com (Admin)</author>
+      <category domain="https://gachalife.online/media/categories/gacha-life.1/"><![CDATA[Gacha Life]]></category>
+      <dc:creator>Admin</dc:creator>
+      <content:encoded><![CDATA[
+	<p>
+		
+			<img src="https://gachalife.online/media/16-jpg.17/full" alt="16.jpg" width="500" />
+		
+	</p>
+]]></content:encoded>
+      <slash:comments>0</slash:comments>
+    </item>
+  </channel>
 </rss>
