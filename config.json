@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "https://socialfeeds.github.io/rss.rss"
+          "https://socialfeeds.github.io/rss.html"
         ]
       },
       {
