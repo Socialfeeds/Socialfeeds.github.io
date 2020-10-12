@@ -9,7 +9,7 @@
         "title":"Feed",
         "provider":"rss",
         "arguments":[
-          "http://gachalife.online/media/-/index.rss"
+          "https://www.photoforum.ru/rss/part.3.top_photos.ru.xml"
         ]
       },
       {
